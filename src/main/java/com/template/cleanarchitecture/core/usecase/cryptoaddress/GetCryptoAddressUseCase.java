@@ -1,8 +1,8 @@
-package com.template.cleanarchitecture.usecase.cryptoaddress;
+package com.template.cleanarchitecture.core.usecase.cryptoaddress;
 
-import com.template.cleanarchitecture.domain.cryptoaddress.gateway.CryptoAddressGateway;
-import com.template.cleanarchitecture.usecase.cryptoaddress.dto.CryptoAddressRequest;
-import com.template.cleanarchitecture.usecase.cryptoaddress.dto.CryptoAddressResponse;
+import com.template.cleanarchitecture.core.domain.cryptoaddress.gateway.CryptoAddressGateway;
+import com.template.cleanarchitecture.core.usecase.cryptoaddress.dto.CryptoAddressRequest;
+import com.template.cleanarchitecture.core.usecase.cryptoaddress.dto.CryptoAddressResponse;
 
 public class GetCryptoAddressUseCase {
     private final CryptoAddressGateway gateway;

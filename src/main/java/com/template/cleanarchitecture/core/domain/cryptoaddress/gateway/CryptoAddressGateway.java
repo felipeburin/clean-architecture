@@ -1,6 +1,6 @@
-package com.template.cleanarchitecture.domain.cryptoaddress.gateway;
+package com.template.cleanarchitecture.core.domain.cryptoaddress.gateway;
 
-import com.template.cleanarchitecture.domain.cryptoaddress.entity.CryptoAddress;
+import com.template.cleanarchitecture.core.domain.cryptoaddress.entity.CryptoAddress;
 
 public interface CryptoAddressGateway {
     CryptoAddress get(final String cryptoType, final String address);

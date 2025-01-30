@@ -1,4 +1,4 @@
-package com.template.cleanarchitecture.usecase.cryptoaddressvaluation.dto;
+package com.template.cleanarchitecture.core.usecase.cryptoaddressvaluation.dto;
 
 import java.math.BigDecimal;
 
